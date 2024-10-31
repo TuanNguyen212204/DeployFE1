@@ -1,0 +1,23 @@
+.authen-template {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao vừa đủ khung nhìn */
+    background-color: #f9e9e9;
+    overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài */
+}
+
+.authen-template_form {
+    padding: 30px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+    text-align: center;
+    max-height: 90vh; /* Giới hạn chiều cao form để không vượt quá màn hình */
+    overflow-y: auto; /* Cho phép cuộn dọc nếu nội dung quá dài */
+    margin: 0;
+}
